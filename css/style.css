@@ -1,8 +1,15 @@
 body {
     background-color: black;
     color: #F6F6F6;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
-strong {
+.presentacion {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-destacado {
     color: #22D4FD;
 }
