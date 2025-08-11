@@ -12,11 +12,28 @@ body {
     align-content: center;
 }
 
+.header {
+    padding: 2% 0 0 10%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
 .presentacion {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    margin: 10%;
+    padding: 3% 10%;
 }
 
 .presentacion__contenido {
@@ -33,13 +50,13 @@ body {
     font-size: 36px;
 }
 
+.titulo-destacado {
+    color: #22D4FD;
+}
+
 .presentacion__contenido__texto {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
-}
-
-.titulo-destacado {
-    color: #22D4FD;
 }
 
 .presentacion__enlaces {
