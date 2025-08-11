@@ -8,7 +8,6 @@
 body {
     background-color: black;
     color: #F6F6F6;
-    height: 100vh;
     box-sizing: border-box;
     align-content: center;
 }
@@ -69,16 +68,19 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
+    cursor: pointer;
 }
 
 .presentacion__enlaces__link:hover {
     background-color: #272727;
 }
 
-.presentacion__footer {
-    display: flex;
+.footer {
+    text-align: center;
     justify-content: center;
     background-color: #22D4FD;
     padding: 23.64px 0;
     color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
 }
