@@ -16,14 +16,16 @@ body {
 .presentacion {
     display: flex;
     align-content: center;
-    justify-content: space-evenly;
-    margin: 5%;
+    justify-content: space-between;
+    margin: 10%;
 }
 
 .presentacion__contenido {
     width: 615px;
-    height: 482px;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
 
 }
 
